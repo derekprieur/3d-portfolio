@@ -7,6 +7,8 @@ import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { BsCodeSlash, BsGithub } from 'react-icons/bs'
+import Pagination from './Pagination'
+import { useState } from 'react'
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, project_link }) => {
   return (
@@ -40,6 +42,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 }
 
 const Works = () => {
+  const [currentPage, setCurrentPage] = useState(1)
+  const [projectsPerPage] = useState(1)
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -52,10 +56,11 @@ const Works = () => {
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
+        {projects.slice((currentPage - 1) * projectsPerPage, currentPage * projectsPerPage).map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <Pagination currentPage={currentPage} projectsPerPage={projectsPerPage} setCurrentPage={setCurrentPage} />
     </>
   )
 }
