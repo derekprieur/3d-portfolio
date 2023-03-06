@@ -41,8 +41,26 @@ import pix from "./pix.jpg";
 import salesscope from "./salesscope.jpg";
 import filmpire from "./filmpire.jpg";
 import chainreaction from "./chainreaction.jpg";
+import datazenith from "./datazenith.jpg";
+import herbivore from "./herbivore.jpg";
+import evogym from "./evogym.jpg";
+import nft from "./nft.png";
+import lucky from "./lucky.png";
+import blog from "./blog.png";
+import crowdfunding from "./crowdfunding.png";
+import newssquad from "./newssquad.png";
+import metaversus from "./metaversus.png";
 
 export {
+  metaversus,
+  newssquad,
+  crowdfunding,
+  blog,
+  lucky,
+  nft,
+  evogym,
+  herbivore,
+  datazenith,
   chainreaction,
   filmpire,
   salesscope,

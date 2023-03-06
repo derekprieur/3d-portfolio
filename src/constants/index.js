@@ -25,6 +25,15 @@ import {
     salesscope,
     filmpire,
     chainreaction,
+    datazenith,
+    herbivore,
+    evogym,
+    nft,
+    lucky,
+    blog,
+    crowdfunding,
+    newssquad,
+    metaversus,
 } from "../assets";
 
 const projects = [
@@ -117,6 +126,28 @@ const projects = [
         source_code_link: "https://github.com/derekprieur/filmpire",
     },
     {
+        name: "Metaversus",
+        description:
+            "Modern Next 13 Website With Framer Motion & Tailwind CSS.",
+        tags: [
+            {
+                name: "framer-motion",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nextjs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: metaversus,
+        project_link: "https://metaversus-mu.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/metaversus",
+    },
+    {
         name: "Chain Reaction",
         description:
             "Crypto dashboard w/React, Tailwind CSS & Firebase auth/db.",
@@ -137,6 +168,50 @@ const projects = [
         image: chainreaction,
         project_link: "https://chainreaction-dprieur.vercel.app/",
         source_code_link: "https://github.com/derekprieur/crypto-dashboard",
+    },
+    {
+        name: "Evogym",
+        description:
+            "Responsive fitness website built w/TypeScript.",
+        tags: [
+            {
+                name: "typescript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "framer-motion",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: evogym,
+        project_link: "https://evogym-dprieur.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/gym-typescript",
+    },
+    {
+        name: "NetRunner NFT Marketplace",
+        description:
+            "NFT Drop Dapp w/ Next.js.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "blockchain",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: nft,
+        project_link: "https://netrunner-marketplace.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/nft-drop",
     },
     {
         name: "Chirp",
@@ -161,6 +236,68 @@ const projects = [
         source_code_link: "https://github.com/derekprieur/chat-app",
     },
     {
+        name: "Crowd Funding",
+        description:
+            "Web3 Crowdfunding platform.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "solidity",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: crowdfunding,
+        project_link: "https://crowd-funding-dprieur.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/crowd-funding",
+    },
+    {
+        name: "DataZenith",
+        description:
+            "Data Analytics landing page w/React & Tailwind CSS.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+        ],
+        image: datazenith,
+        project_link: "https://datazenith.netlify.app/",
+        source_code_link: "https://github.com/derekprieur/data-site",
+    },
+    {
+        name: "Lucky Draw Lottery",
+        description:
+            "Crypto lottery app w/ TypeScript & ThirdWeb.",
+        tags: [
+            {
+                name: "typescript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nextjs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "solidity",
+                color: "green-text-gradient",
+            },
+        ],
+        image: lucky,
+        project_link: "https://luckydraw-lottery.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/lottery",
+    },
+    {
         name: "Quick Task",
         description:
             "Simple Todo application with React, Tailwind CSS & Firebase.",
@@ -183,6 +320,46 @@ const projects = [
         source_code_link: "https://github.com/derekprieur/todo",
     },
     {
+        name: "Ninja News Squad",
+        description:
+            "Live News App with Next.js 13.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "api",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: newssquad,
+        project_link: "https://ninjanewssquad.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/news-app",
+    },
+    {
+        name: "Herbivore Harvest",
+        description:
+            "Responsive food delivery website w/React.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+        ],
+        image: herbivore,
+        project_link: "https://herbivoreharvest.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/delivery-site",
+    },
+    {
         name: "Key Master",
         description:
             "Password generation application with React & Tailwind CSS.",
@@ -199,6 +376,28 @@ const projects = [
         image: keymaster,
         project_link: "https://key-master.vercel.app/",
         source_code_link: "https://github.com/derekprieur/password-generator",
+    },
+    {
+        name: "Daily Blog Blog",
+        description:
+            "Modern blog powered by Next.js 13, Sanity v3, TypeScript and Tailwind.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "sanity",
+                color: "green-text-gradient",
+            }
+        ],
+        image: blog,
+        project_link: "https://blog-derekprieur.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/blog",
     },
     {
         name: "Sales Scope",
