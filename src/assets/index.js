@@ -34,8 +34,19 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import catgpt from "./catgpt.jpg";
 import yariga from "./yariga.jpg";
+import chirp from "./chirp.jpg";
+import quicktask from "./quicktask.jpg";
+import keymaster from "./keymaster.jpg";
+import pix from "./pix.jpg";
+import salesscope from "./salesscope.jpg";
+import filmpire from "./filmpire.jpg";
+import chainreaction from "./chainreaction.jpg";
 
 export {
+  chainreaction,
+  filmpire,
+  salesscope,
+  pix,
   logo,
   backend,
   creator,
@@ -68,5 +79,8 @@ export {
   freelance,
   catgpt,
   yariga,
-  code
+  code,
+  chirp,
+  quicktask,
+  keymaster,
 };

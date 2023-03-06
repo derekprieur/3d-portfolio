@@ -15,12 +15,16 @@ import {
     figma,
     freelance,
     optionsoft,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     catgpt,
     yariga,
+    chirp,
+    quicktask,
+    keymaster,
+    pix,
+    salesscope,
+    filmpire,
+    chainreaction,
 } from "../assets";
 
 const projects = [
@@ -47,6 +51,28 @@ const projects = [
         source_code_link: "https://github.com/derekprieur/catGPT",
     },
     {
+        name: "Pix",
+        description:
+            "Full Stack MERN AI image generation app.",
+        tags: [
+            {
+                name: "node",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "ai",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: pix,
+        project_link: "https://pix-ai.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/ai-image",
+    },
+    {
         name: "Yariga",
         description:
             "Full Stack MERN app w/ CRUD, Auth, & Charts.",
@@ -67,6 +93,134 @@ const projects = [
         image: yariga,
         project_link: "https://refine-property-dashboard.vercel.app/",
         source_code_link: "https://github.com/derekprieur/refine_property_dashboard",
+    },
+    {
+        name: "Filmpire",
+        description:
+            "AI powered movie app with React.js & Material UI.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "material-ui",
+                color: "green-text-gradient",
+            },
+            {
+                name: "api",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: filmpire,
+        project_link: "https://filmpire-dprieur.netlify.app/",
+        source_code_link: "https://github.com/derekprieur/filmpire",
+    },
+    {
+        name: "Chain Reaction",
+        description:
+            "Crypto dashboard w/React, Tailwind CSS & Firebase auth/db.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "api",
+                color: "green-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: chainreaction,
+        project_link: "https://chainreaction-dprieur.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/crypto-dashboard",
+    },
+    {
+        name: "Chirp",
+        description:
+            "Chat app with Firebase backend & user authentication.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "authentication",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: chirp,
+        project_link: "https://chirp-dprieur.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/chat-app",
+    },
+    {
+        name: "Quick Task",
+        description:
+            "Simple Todo application with React, Tailwind CSS & Firebase.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "authentication",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: quicktask,
+        project_link: "https://quick-task.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/todo",
+    },
+    {
+        name: "Key Master",
+        description:
+            "Password generation application with React & Tailwind CSS.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+        ],
+        image: keymaster,
+        project_link: "https://key-master.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/password-generator",
+    },
+    {
+        name: "Sales Scope",
+        description:
+            "Customer analytics dashboard with React, Chart.js & Tailwind.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "analytics",
+                color: "green-text-gradient",
+            },
+        ],
+        image: salesscope,
+        project_link: "https://salse-scope.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/user-dashboard",
     },
 ];
 

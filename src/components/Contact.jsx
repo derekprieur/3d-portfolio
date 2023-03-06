@@ -1,6 +1,8 @@
 import { useState, useRef } from "react"
 import { motion } from "framer-motion"
 import emailjs from "@emailjs/browser"
+import { BsInstagram, BsGithub, BsLinkedin, BsTwitter, BsTiktok, BsYoutube } from 'react-icons/bs'
+import { MdOutlineMail } from 'react-icons/md'
 
 import { styles } from "../styles"
 import { EarthCanvas } from './canvas'
@@ -59,6 +61,29 @@ const Contact = () => {
           <button type="submit" className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">
             {loading ? 'Sending...' : 'Send'}
           </button>
+          <ul className="flex gap-6 w-full justify-center text-xl md:text-2xl">
+            <li className="cursor-pointer hover:text-[#9153ff] transition-colors duration-200 ease-in-out">
+              <a href="https://www.instagram.com/derekprieur/" target='_blank'><BsInstagram /></a>
+            </li>
+            <li className="cursor-pointer hover:text-[#9153ff] transition-colors duration-200 ease-in-out">
+              <a href="https://github.com/derekprieur" target='_blank'><BsGithub /></a>
+            </li>
+            <li className="cursor-pointer hover:text-[#9153ff] transition-colors duration-200 ease-in-out">
+              <a href="https://www.linkedin.com/in/derekprieur/" target='_blank'><BsLinkedin /></a>
+            </li>
+            <li className="cursor-pointer hover:text-[#9153ff] transition-colors duration-200 ease-in-out">
+              <a href="https://twitter.com/derekprieur_" target='_blank'><BsTwitter /></a>
+            </li>
+            <li className="cursor-pointer hover:text-[#9153ff] transition-colors duration-200 ease-in-out">
+              <a href="https://www.tiktok.com/@derekprieur_" target='_blank'><BsTiktok /></a>
+            </li>
+            <li className="cursor-pointer hover:text-[#9153ff] transition-colors duration-200 ease-in-out">
+              <a href="https://www.youtube.com/channel/UCRfCF6455D8bysDrUixxVhw" target='_blank'><BsYoutube /></a>
+            </li>
+            <li className="cursor-pointer hover:text-[#9153ff] transition-colors duration-200 ease-in-out">
+              <a href="mailto:dprieur123@gmail.com" target='_blank'><MdOutlineMail /></a>
+            </li>
+          </ul>
         </form>
       </motion.div>
       <motion.div variants={slideIn('right', 'tween', 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
