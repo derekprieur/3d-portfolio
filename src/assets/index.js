@@ -30,7 +30,6 @@ import freelance from "./company/freelance.png";
 import optionsoft from "./company/optionsoft.jpg";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import catgpt from "./catgpt.jpg";
 import yariga from "./yariga.jpg";
@@ -50,8 +49,14 @@ import blog from "./blog.png";
 import crowdfunding from "./crowdfunding.png";
 import newssquad from "./newssquad.png";
 import metaversus from "./metaversus.png";
+import jobit from "./jobit.jpg";
+import ebay from "./ebay.png";
+import netflicks from "./netflicks.png";
 
 export {
+  netflicks,
+  ebay,
+  jobit,
   metaversus,
   newssquad,
   crowdfunding,
@@ -92,7 +97,6 @@ export {
   tesla,
   optionsoft,
   carrent,
-  jobit,
   tripguide,
   freelance,
   catgpt,

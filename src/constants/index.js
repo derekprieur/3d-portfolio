@@ -34,9 +34,34 @@ import {
     crowdfunding,
     newssquad,
     metaversus,
+    jobit,
+    ebay,
+    netflicks,
 } from "../assets";
 
 const projects = [
+    {
+        name: "Jobit",
+        description:
+            "Realtime job search and salary estimate application w/ Next.js & API integration.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "api",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: jobit,
+        project_link: "https://jobit-dprieur.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/job-search",
+    },
     {
         name: "CatGPT",
         description:
@@ -258,6 +283,28 @@ const projects = [
         source_code_link: "https://github.com/derekprieur/crowd-funding",
     },
     {
+        name: "Ebay",
+        description:
+            "Ebay clone w/React and web 3.0 integration.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "thirdweb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ebay,
+        project_link: "https://ebay-dprieur.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/ebay",
+    },
+    {
         name: "DataZenith",
         description:
             "Data Analytics landing page w/React & Tailwind CSS.",
@@ -296,6 +343,28 @@ const projects = [
         image: lucky,
         project_link: "https://luckydraw-lottery.vercel.app/",
         source_code_link: "https://github.com/derekprieur/lottery",
+    },
+    {
+        name: "Netflicks",
+        description:
+            "Netflix clone w/ React, Firestore, Redux, & Stripe.",
+        tags: [
+            {
+                name: "redux",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "firestore",
+                color: "green-text-gradient",
+            },
+            {
+                name: "stripe",
+                color: "green-text-gradient",
+            },
+        ],
+        image: netflicks,
+        project_link: "https://netflicks.vercel.app/",
+        source_code_link: "https://github.com/derekprieur/netflicks",
     },
     {
         name: "Quick Task",
